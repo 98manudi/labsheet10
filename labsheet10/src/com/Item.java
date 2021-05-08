@@ -21,6 +21,7 @@ public class Item {
 		return con;
 		
 	}
+	//insert data
 	public String insertItem(String code, String name, String price, String desc) {
 		String output = "";
 		try
@@ -54,7 +55,8 @@ public class Item {
 		 }
 		return output;
 	}
-			
+	
+	//read data
 	public String readItems()
 	{
 	 String output = "";
